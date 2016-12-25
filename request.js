@@ -1581,8 +1581,6 @@ switch (code) {
     city = 'Casper, WY';
     zipCode = '82646';
     break;
-  default:
-    alert('not find');
 }
 var config = {
   email: '861023386@qq.com',
