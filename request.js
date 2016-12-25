@@ -2,7 +2,7 @@
 // @name         Mediabase Request for Slumber Party
 // @version      0.1
 // @description  Slumber Party slays lives.
-// @author       You
+// @author       Shinko
 // @match        http://www.mediabase.com/mmrweb/*
 // @grant        none
 // @require    http://code.jquery.com/jquery-1.11.0.min.js
@@ -1582,6 +1582,7 @@ switch (code) {
     zipCode = '82646';
     break;
 }
+
 var config = {
   email: '861023386@qq.com',
   username: 'Jane',
