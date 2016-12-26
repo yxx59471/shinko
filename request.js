@@ -1267,7 +1267,7 @@ switch (code) {
     break;
   case 'WWXM':
     city = 'Myrtle Beach';
-    zipCode = 'SC';
+    zipCode = '29575';
     break;
   case 'WAEV':
     city = 'Savannah, GA';
