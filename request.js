@@ -865,6 +865,14 @@ switch (code) {
     city = 'Springfield, MA';
     zipCode = '01101';
     break;
+  case 'WMAS':
+    city = 'Springfield, MA';
+    zipCode = '01101';
+    break;
+  case 'WHYN':
+    city = 'Springfield, MA';
+    zipCode = '01101';
+    break;
   case 'WNOK':
     city = 'Columbia, SC';
     zipCode = '29292';
@@ -1580,14 +1588,6 @@ switch (code) {
   case 'KTRS':
     city = 'Casper, WY';
     zipCode = '82646';
-    break;
-  case 'WMAS':
-    city = 'Springfield, MA';
-    zipCode = '01101';
-    break;
-  case 'WHYN':
-    city = 'Springfield, MA';
-    zipCode = '01101';
     break;
   case 'WKSS':
     city = 'Springfield, MA';
