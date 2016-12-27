@@ -1589,14 +1589,7 @@ switch (code) {
     city = 'Casper, WY';
     zipCode = '82646';
     break;
-  case 'WKSS':
-    city = 'Hartford, CT';
-    zipCode = '06160';
-    break;
-  case 'WTIC':
-    city = 'Hartford, CT';
-    zipCode = '06160';
-    break;
+  
 }
 
 var config = {
