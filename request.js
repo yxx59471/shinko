@@ -1584,12 +1584,12 @@ switch (code) {
 }
 
 var config = {
-  email: '861023386@qq.com',
-  username: 'Jane',
+  email: 'sexysin18@ymail.com',
+  username: 'Edwin',
   community: city,
   zip: zipCode,
-  sex: 'female',
-  age: '22'
+  sex: 'male',
+  age: '23'
 },
 SP = document.getElementById('SPEASP2');
 if (null === SP) {
