@@ -869,10 +869,6 @@ switch (code) {
     city = 'Springfield, MA';
     zipCode = '01101';
     break;
-  case 'WHYN':
-    city = 'Springfield, MA';
-    zipCode = '01101';
-    break;
   case 'WNOK':
     city = 'Columbia, SC';
     zipCode = '29292';
