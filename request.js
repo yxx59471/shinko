@@ -1590,8 +1590,12 @@ switch (code) {
     zipCode = '82646';
     break;
   case 'WKSS':
-    city = 'Springfield, MA';
-    zipCode = '01101';
+    city = 'Hartford, CT';
+    zipCode = '06160';
+    break;
+  case 'WTIC':
+    city = 'Hartford, CT';
+    zipCode = '06160';
     break;
 }
 
