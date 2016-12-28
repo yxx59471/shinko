@@ -1,0 +1,97 @@
+var url = window.location.toString();
+var index = url.indexOf('&');
+var code = url.substr(index+7 , 4);
+var city,
+    zipCode;
+var NYNYArr=['10001','10002','10003'],
+    LACAArr=['90001','90009','90010'],
+    CHILArr=['60606','60609','60610'],
+    SFCAArr=['94111','94112','94113'];
+    DATXArr=['75252','75253','75254'],
+var n = Math.floor(Math.random() * NYArr.length + 1)-1;  
+var NYNYChoose= NYNYArr[n],
+    LACAChoose= LYCAArr[n],
+    CHILChoose= CHILArr[n],
+    SFCAChoose= SFCAArr[n],
+    DATXChoose= DATXArr[n],;
+switch (code) {
+  case 'WHTZ':
+    city = 'New York, NY';
+    zipCode = NYNYChoose;
+    break;
+  case 'WXRK':
+    city = 'New York, NY';
+    zipCode = NYNYChoose;
+    break;
+  case 'WPLJ':
+    city = 'New York, NY';
+    zipCode = NYNYChoose;
+    break;
+  case 'WQHT':
+    city = 'New York, NY';
+    zipCode = NYNYChoose;
+    break;
+  case 'KIIS':
+    city = 'Los Angeles, CA';
+    zipCode = LACAChoose;
+    break;
+  case 'KAMP':
+    city = 'Los Angeles, CA';
+    zipCode = LACAChoose;
+    break;
+  case 'KBIG':
+    city = 'Los Angeles, CA';
+    zipCode = LACAChoose;
+    break;
+  case 'KPWR':
+    city = 'Los Angeles, CA';
+    zipCode = LACAChoose;
+    break;
+  case 'WKSC':
+    city = 'Chicago, IL';
+    zipCode = CHILChoose;
+    break;
+  case 'WTMX':
+    city = 'Chicago, IL';
+    zipCode = CHILChoose;
+    break;
+  case 'WBBM':
+    city = 'Chicago, IL';
+    zipCode = CHILChoose;
+    break;
+  case 'KMVQ':
+    city = 'San Francisco, CA';
+    zipCode = CHILChoose;
+    break;
+  case 'KIOI':
+    city = 'San Francisco, CA';
+    zipCode = SFCAChoose;
+    break;
+  case 'KLLC':
+    city = 'San Francisco, CA';
+    zipCode = SFCAChoose;
+    break;
+  case 'KMEL':
+    city = 'San Francisco, CA';
+    zipCode = SFCAChoose;
+    break;
+  case 'KYLD':
+    city = 'San Francisco, CA';
+    zipCode = SFCAChoose;
+    break;
+  case 'KHKS':
+    city = 'Dallas, TX';
+    zipCode = DATXChoose;
+    break;
+  case 'KLIF':
+    city = 'Dallas, TX';
+    zipCode = DATXChoose;
+    break;
+  case 'KDMX':
+    city = 'Dallas, TX';
+    zipCode = DATXChoose;
+    break;
+  case 'KBFB':
+    city = 'Dallas, TX';
+    zipCode = DATXChoose;
+    break;
