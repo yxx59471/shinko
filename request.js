@@ -1124,11 +1124,11 @@ switch (code) {
     break;
   case 'WWCK':
     city = 'Flint, MI';
-    zipCode = '90057';
+    zipCode = '48505';
     break;
   case 'WRCL':
     city = 'Flint, MI';
-    zipCode = '90057';
+    zipCode = '48505';
     break;
   case 'KRCK':
     city = 'Palm Springs, CA';
