@@ -9,7 +9,8 @@
 // ==/UserScript==
 
 var url = window.location.toString();
-var code = url.slice( - 7, - 3);
+var index = url.indexOf('&');
+var code = url.substr(index+7 , 4);
 var city,
 zipCode;
 switch (code) {
