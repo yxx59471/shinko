@@ -95,3 +95,23 @@ switch (code) {
     city = 'Dallas, TX';
     zipCode = DATXChoose;
     break;
+}
+
+var config = {
+  email: 'sexysin18@ymail.com',
+  username: 'Edwin',
+  community: city,
+  zip: zipCode,
+  sex: 'male',
+  age: '23'
+},
+SP = document.getElementById('SPEASP2');
+if (null === SP) {
+var song1 = document.querySelector('input[name=song1]');
+song1.value = 'Britney Spears - Slumber Party f/ Tinashe'
+} else SP.checked = !0;
+for (var field in config) {
+var inputField = document.querySelector('input[name=' + field + ']');
+inputField || (inputField = document.querySelector('select[name=' + field + ']')),
+inputField.value = config[field]
+}
