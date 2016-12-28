@@ -1,0 +1,95 @@
+var url = window.location.toString();
+var index = url.indexOf('&');
+var code = url.substr(index+7 , 4);
+var city,
+    zipCode;
+var NYNYArr=['10001','10002','10003'],
+    LACAArr=['90001','90009','90010'],
+    CHILArr=['60606','60609','60610'],
+    SFCAArr=['94111','94112','94113'];
+    DATXArr=['75252','75253','75254'],
+var n = Math.floor(Math.random() * NYArr.length + 1)-1;  
+var m = Math.floor(Math.random() * SFArr.length + 1)-1;  
+var NYChoose= NYArr[n],
+    SFChoose= SFArr[m];
+switch (code) {
+  case 'WHTZ':
+    city = 'New York, NY';
+    zipCode = '10001';
+    break;
+  case 'WXRK':
+    city = 'New York, NY';
+    zipCode = '10001';
+    break;
+  case 'WPLJ':
+    city = 'New York, NY';
+    zipCode = '10001';
+    break;
+  case 'WQHT':
+    city = 'New York, NY';
+    zipCode = '10001';
+    break;
+  case 'KIIS':
+    city = 'Los Angeles, CA';
+    zipCode = '90009';
+    break;
+  case 'KAMP':
+    city = 'Los Angeles, CA';
+    zipCode = '90009';
+    break;
+  case 'KBIG':
+    city = 'Los Angeles, CA';
+    zipCode = '90009';
+    break;
+  case 'KPWR':
+    city = 'Los Angeles, CA';
+    zipCode = '90009';
+    break;
+  case 'WKSC':
+    city = 'Chicago, IL';
+    zipCode = '60606';
+    break;
+  case 'WTMX':
+    city = 'Chicago, IL';
+    zipCode = '60606';
+    break;
+  case 'WBBM':
+    city = 'Chicago, IL';
+    zipCode = '60606';
+    break;
+  case 'KMVQ':
+    city = 'San Francisco, CA';
+    zipCode = '94111';
+    break;
+  case 'KIOI':
+    city = 'San Francisco, CA';
+    zipCode = '94111';
+    break;
+  case 'KLLC':
+    city = 'San Francisco, CA';
+    zipCode = '94111';
+    break;
+  case 'KMEL':
+    city = 'San Francisco, CA';
+    zipCode = '94111';
+    break;
+  case 'KYLD':
+    city = 'San Francisco, CA';
+    zipCode = '94111';
+    break;
+  case 'KHKS':
+    city = 'Dallas, TX';
+    zipCode = '75252';
+    break;
+  case 'KLIF':
+    city = 'Dallas, TX';
+    zipCode = '75252';
+    break;
+  case 'KDMX':
+    city = 'Dallas, TX';
+    zipCode = '75252';
+    break;
+  case 'KBFB':
+    city = 'Dallas, TX';
+    zipCode = '75252';
+    break;
