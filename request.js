@@ -325,6 +325,14 @@ switch (code) {
     city = 'Sacramento, CA';
     zipCode = '94249';
     break;
+  case 'KHHM':
+    city = 'Sacramento, CA';
+    zipCode = '94249';
+    break;
+  case 'KSFM':
+    city = 'Sacramento, CA';
+    zipCode = '94249';
+    break;
   case 'WKFS':
     city = 'Cincinnati, OH';
     zipCode = '45254';
