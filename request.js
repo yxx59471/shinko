@@ -1598,12 +1598,12 @@ switch (code) {
 }
 
 var config = {
-  email: 'jake22@ymail.com',
-  username: 'Jake',
+  email: 'jenna1202@gmail.com',
+  username: 'Jenna',
   community: city,
   zip: zipCode,
-  sex: 'male',
-  age: '22'
+  sex: 'female',
+  age: '25'
 },
 SP = document.getElementById('SPEASP2');
 if (null === SP) {
