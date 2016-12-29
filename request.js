@@ -235,12 +235,12 @@ switch (code) {
     zipCode = '92129';
     break;
   case 'WBLI':
-    city = 'Long Island, NY';
-    zipCode = '11551';
+    city = 'Suffolk, NY';
+    zipCode = '11708';
     break;
   case 'WPTY':
-    city = 'Long Island, NY';
-    zipCode = '11551';
+    city = 'Suffolk, NY';
+    zipCode = '11708';
     break;
   case 'WFLZ':
     city = 'Tampa, FL';
